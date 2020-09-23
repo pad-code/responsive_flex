@@ -1,0 +1,59 @@
+flexbox
+media query
+
+to use the flex box model, first create a continer
+
+(parent container)
+display: flex;
+
+// all child elements automatically becomes flex-items
+
+//flex-direction
+	column
+	column-reverse
+	row
+	row-reverse
+
+flex-wrap
+	wrap
+	nowrap
+	wrap-reverse
+flex-flow
+	(shorthand property) flex-direction and flex-wrap
+justify-content 
+	center
+	flex-start
+	flex-end
+	space-between
+	space-around
+
+align-items
+	(align flex-items verically)
+	center
+	flex-start
+	flex-end
+	stretch
+	baseline
+align-content
+	space-between
+	space-around
+	stretch
+	center
+	flex-start
+	flex-end
+
+-----------------------------------------------------
+--child elements (items)
+
+order
+	order: 3, 2
+flex-grow
+	flex-grow: (default value is 0)
+flex-shrink
+	(default value is 1)
+flex-basis
+	(works like the width property, sets the initial length of the flex item)
+flex
+	(flex-grow), flex-shrink, flex-basis
+align-self
+	(overides the default parent align-items property)
