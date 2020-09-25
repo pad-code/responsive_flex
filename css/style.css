@@ -127,6 +127,7 @@ header>h6{
     margin: 13px 10px 0 0;
 }
 
+/* remove margin-right from 3rd element */
 .main-section>.image-display>.some-image-main:nth-child(3){
     margin-right: 0;
 }
