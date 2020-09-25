@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #E5E5E5;
+}
+
+.navbar{
+    display: flex;
+    background: #373737;
+    padding: 20px 30px;
+    color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-style>a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+/* styling header */
+.landing-page{
+    background: #769ABC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 30px;
+    height: 220px;
+}
+
+header>h3{
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+header>h6{
+    font-weight: bold;
+    font-size: 20px;
+    background: #C4C4C4;
+    border-radius: 15px;
+    padding: 8px 15px;
+    width: 160px;
+    text-align: center;
+}
+
+/* landing-right section */
+.landing-right{
+    background: #c4c4c4;
+    border-radius: 28px;
+    width: 559px;
+    padding: 20px 30px;
+}
+
+.landing-right>h5{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.landing-right>hr{
+    border: 0.05px solid #565656;
+}
+/* center input text */
+.landing-right>div{
+    text-align: center;
+}
+
+.landing-right>div>input{
+    width: 478px;
+    height: 38px;
+    border: none;
+    margin-top: 18px;
+    background: #1F4E58;
+    text-align: center;
+}
+
+/* main body */
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side-content{
+    flex: 20%;
+    background: #35516B; 
+    padding: 15px 30px;   
+}
+
+.side-content>h3, .main-section>h3{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.side-content>p, .main-section>p{
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.side-content>div{
+    padding: 25px;
+    margin-top: 10px;
+    background: #5090CB;
+}
+
+/* main-section */
+.main-section{
+    flex: 70%;
+    padding: 15px 30px;
+}
+
+.main-section>.image-display{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section>.image-display>.some-image-main{
+    background: #5090CB;
+    padding: 25px;
+    flex: 100%;
+    margin: 13px 10px 0 0;
+}
+
+.main-section>.image-display>.some-image-main:nth-child(3){
+    margin-right: 0;
+}
