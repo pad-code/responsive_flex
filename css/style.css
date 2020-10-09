@@ -131,3 +131,36 @@ header>h6{
 .main-section>.image-display>.some-image-main:nth-child(3){
     margin-right: 0;
 }
+
+.main-section>.some-image-main2{
+    background: #5090CB;
+    padding: 50px 50px 100px 50px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    background-color: #769ABC;
+    height: 102px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* media query */
+
+/* style for screen from width = 1024px and lower*/
+@media screen and (max-width: 1204px){
+    .landing-right{
+        display: none;
+    }
+}
+
+/* style for screen from width = 500px and lower*/
+@media screen and (max-width: 500px){
+    header>h3{
+        font-size: 20px;
+    }
+
+    /* hide button when max-width = 500px  -- h6 element -- */
+}
